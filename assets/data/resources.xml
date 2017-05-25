@@ -1,0 +1,771 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<pack>
+    <background atlasID="0" desc="" durations="" dx="-0.0" dy="-0.0" height="0" id="2" name="Background" numframes="0" oid="-1" repeats="false" resized="false" shared="false" width="0" xpf="1.0" ypf="1.0"/>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="1" fixedrot="true" fric="0.2" gid="4" id="0" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="Bob" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="1" static="true">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="324" id="1" name="Bob" shared="false" width="576">
+        <anim across="1" down="1" durations="100" height="324" id="0" loop="true" name="Normal" numframes="1" originx="288" originy="162" sync="false" version="2" width="576">
+            <poly data="4,0,0,576,0,576,324,0,324" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="3" down="2" durations="500,500,500,500,500" height="648" id="1" loop="true" name="Happy" numframes="5" originx="288" originy="162" sync="false" version="2" width="1728">
+            <poly data="4,0,0,576,0,576,324,0,324" density="0.1" fric="0.2" gid="-1000" id="0" name="Happy" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="2" down="1" durations="1000,10000" height="324" id="2" loop="false" name="Dying" numframes="2" originx="288" originy="162" sync="false" version="2" width="1152">
+            <poly data="4,0,0,576,0,576,324,0,324" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 2" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <music atlasID="0" desc="" id="33" loop="true" name="Bob Dying" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
+    <tileset across="15" atlasID="0" desc="" down="25" id="30" name="Bob is dead" oid="-1" shared="false" th="32" tw="32">
+        <tile collision="-1" data="" durations="100" frames="0" id="465" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="1" id="466" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="2" id="467" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="3" id="468" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="4" id="469" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="5" id="470" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="6" id="471" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="7" id="472" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="8" id="473" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="9" id="474" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="10" id="475" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="11" id="476" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="12" id="477" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="13" id="478" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="14" id="479" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="15" id="480" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="16" id="481" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="17" id="482" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="18" id="483" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="19" id="484" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="20" id="485" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="21" id="486" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="22" id="487" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="23" id="488" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="24" id="489" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="25" id="490" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="26" id="491" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="27" id="492" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="28" id="493" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="29" id="494" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="30" id="495" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="31" id="496" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="32" id="497" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="33" id="498" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="34" id="499" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="35" id="500" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="36" id="501" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="37" id="502" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="38" id="503" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="39" id="504" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="40" id="505" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="41" id="506" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="42" id="507" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="43" id="508" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="44" id="509" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="45" id="840" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="46" id="841" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="47" id="842" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="48" id="843" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="49" id="844" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="50" id="845" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="51" id="846" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="52" id="847" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="53" id="848" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="54" id="849" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="55" id="850" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="56" id="851" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="57" id="852" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="58" id="523" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="59" id="524" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="60" id="853" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="61" id="854" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="62" id="855" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="63" id="856" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="64" id="857" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="65" id="858" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="66" id="859" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="67" id="860" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="68" id="861" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="69" id="862" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="70" id="863" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="71" id="864" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="72" id="865" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="73" id="538" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="74" id="539" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="75" id="866" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="76" id="867" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="77" id="868" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="78" id="869" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="79" id="870" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="80" id="871" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="81" id="872" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="82" id="873" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="83" id="874" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="84" id="875" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="85" id="876" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="86" id="877" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="87" id="878" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="88" id="553" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="89" id="554" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="90" id="879" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="91" id="880" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="92" id="881" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="93" id="882" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="94" id="883" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="95" id="884" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="96" id="885" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="97" id="886" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="98" id="887" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="99" id="888" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="100" id="889" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="101" id="890" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="102" id="891" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="103" id="568" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="104" id="569" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="105" id="892" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="106" id="893" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="107" id="894" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="108" id="895" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="109" id="896" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="110" id="897" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="111" id="898" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="112" id="899" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="113" id="900" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="114" id="901" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="115" id="902" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="116" id="903" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="117" id="904" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="118" id="583" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="119" id="584" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="120" id="905" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="121" id="906" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="122" id="907" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="123" id="908" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="124" id="909" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="125" id="910" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="126" id="911" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="127" id="912" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="128" id="913" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="129" id="914" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="130" id="915" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="131" id="916" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="132" id="917" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="133" id="598" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="134" id="599" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="135" id="918" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="136" id="919" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="137" id="920" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="138" id="921" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="139" id="922" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="140" id="923" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="141" id="924" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="142" id="925" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="143" id="926" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="144" id="927" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="145" id="928" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="146" id="929" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="147" id="930" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="148" id="613" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="149" id="614" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="150" id="931" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="151" id="932" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="152" id="933" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="153" id="934" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="154" id="935" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="155" id="936" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="156" id="937" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="157" id="938" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="158" id="939" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="159" id="940" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="160" id="941" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="161" id="942" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="162" id="943" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="163" id="628" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="164" id="629" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="165" id="944" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="166" id="945" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="167" id="946" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="168" id="947" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="169" id="948" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="170" id="949" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="171" id="950" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="172" id="951" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="173" id="952" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="174" id="953" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="175" id="954" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="176" id="955" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="177" id="956" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="178" id="643" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="179" id="644" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="180" id="957" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="181" id="958" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="182" id="959" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="183" id="960" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="184" id="961" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="185" id="962" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="186" id="963" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="187" id="964" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="188" id="965" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="189" id="966" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="190" id="967" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="191" id="968" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="192" id="969" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="193" id="658" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="194" id="659" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="195" id="970" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="196" id="971" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="197" id="972" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="198" id="973" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="199" id="974" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="200" id="975" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="201" id="976" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="202" id="977" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="203" id="978" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="204" id="979" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="205" id="980" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="206" id="981" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="207" id="982" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="208" id="673" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="209" id="674" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="210" id="983" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="211" id="984" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="212" id="985" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="213" id="986" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="214" id="987" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="215" id="988" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="216" id="989" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="217" id="990" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="218" id="991" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="219" id="992" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="220" id="993" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="221" id="994" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="222" id="995" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="223" id="688" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="224" id="689" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="225" id="996" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="226" id="997" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="227" id="998" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="228" id="999" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="229" id="1000" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="230" id="1001" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="231" id="1002" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="232" id="1003" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="233" id="1004" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="234" id="1005" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="235" id="1006" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="236" id="1007" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="237" id="1008" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="238" id="703" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="239" id="704" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="240" id="1009" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="241" id="1010" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="242" id="1011" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="243" id="1012" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="244" id="1013" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="245" id="1014" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="246" id="1015" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="247" id="1016" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="248" id="1017" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="249" id="1018" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="250" id="1019" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="251" id="1020" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="252" id="1021" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="253" id="718" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="254" id="719" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="255" id="1022" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="256" id="1023" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="257" id="1024" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="258" id="1025" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="259" id="1026" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="260" id="1027" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="261" id="1028" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="262" id="1029" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="263" id="1030" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="264" id="1031" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="265" id="1032" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="266" id="1033" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="267" id="1034" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="268" id="733" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="269" id="734" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="270" id="735" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="271" id="736" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="272" id="737" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="273" id="738" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="274" id="739" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="275" id="740" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="276" id="741" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="277" id="742" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="278" id="743" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="279" id="744" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="280" id="745" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="281" id="746" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="282" id="747" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="283" id="748" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="284" id="749" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="285" id="750" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="286" id="751" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="287" id="752" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="288" id="753" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="289" id="754" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="290" id="755" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="291" id="756" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="292" id="757" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="293" id="758" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="294" id="759" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="295" id="760" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="296" id="761" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="297" id="762" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="298" id="763" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="299" id="764" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="300" id="765" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="301" id="766" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="302" id="767" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="303" id="768" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="304" id="769" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="305" id="770" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="306" id="771" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="307" id="772" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="308" id="773" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="309" id="774" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="310" id="775" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="311" id="776" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="312" id="777" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="313" id="778" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="314" id="779" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="315" id="780" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="316" id="781" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="317" id="782" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="318" id="783" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="319" id="784" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="320" id="785" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="321" id="786" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="322" id="787" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="323" id="788" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="324" id="789" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="325" id="790" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="326" id="791" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="327" id="792" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="328" id="793" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="329" id="794" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="330" id="795" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="331" id="796" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="332" id="797" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="333" id="798" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="334" id="799" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="335" id="800" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="336" id="801" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="337" id="802" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="338" id="803" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="339" id="804" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="340" id="805" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="341" id="806" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="342" id="807" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="343" id="808" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="344" id="809" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="345" id="810" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="346" id="811" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="347" id="812" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="348" id="813" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="349" id="814" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="350" id="815" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="351" id="816" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="352" id="817" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="353" id="818" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="354" id="819" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="355" id="820" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="356" id="821" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="357" id="822" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="358" id="823" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="359" id="824" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="360" id="825" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="361" id="826" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="362" id="827" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="363" id="828" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="364" id="829" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="365" id="830" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="366" id="831" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="367" id="832" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="368" id="833" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="369" id="834" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="370" id="835" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="371" id="836" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="372" id="837" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="373" id="838" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="374" id="839" order="-1"/>
+    </tileset>
+    <tileset across="12" atlasID="0" desc="" down="7" id="4" name="Bob Wants 1" oid="-1" shared="false" th="32" tw="32">
+        <tile collision="0" data="" durations="100" frames="0" id="0" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="1" id="1" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="2" id="2" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="3" id="3" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="4" id="4" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="5" id="5" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="6" id="6" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="7" id="7" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="8" id="8" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="9" id="9" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="10" id="10" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="11" id="11" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="12" id="12" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="13" id="13" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="14" id="14" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="15" id="15" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="16" id="16" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="17" id="17" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="18" id="18" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="19" id="19" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="20" id="20" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="21" id="21" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="22" id="22" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="23" id="23" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="24" id="24" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="25" id="25" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="26" id="26" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="27" id="27" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="28" id="28" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="29" id="29" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="30" id="30" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="31" id="31" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="32" id="32" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="33" id="33" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="34" id="34" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="35" id="35" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="36" id="36" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="37" id="37" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="38" id="38" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="39" id="39" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="40" id="40" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="41" id="41" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="42" id="42" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="43" id="43" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="44" id="44" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="45" id="45" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="46" id="46" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="47" id="47" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="48" id="48" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="49" id="49" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="50" id="50" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="51" id="51" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="52" id="52" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="53" id="53" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="54" id="54" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="55" id="55" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="56" id="56" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="57" id="57" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="58" id="58" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="59" id="59" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="60" id="60" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="61" id="61" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="62" id="62" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="63" id="63" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="64" id="64" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="65" id="65" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="66" id="66" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="67" id="67" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="68" id="68" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="69" id="69" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="70" id="70" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="71" id="71" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="72" id="72" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="73" id="73" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="74" id="74" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="75" id="75" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="76" id="76" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="77" id="77" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="78" id="78" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="79" id="79" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="80" id="80" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="81" id="81" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="82" id="82" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="83" id="83" order="-1"/>
+    </tileset>
+    <tileset across="12" atlasID="0" desc="" down="7" id="8" name="Bob Wants 2" oid="-1" shared="false" th="32" tw="32">
+        <tile collision="0" data="" durations="100" frames="0" id="0" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="1" id="1" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="2" id="2" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="3" id="3" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="4" id="4" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="5" id="5" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="6" id="6" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="7" id="7" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="8" id="8" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="9" id="9" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="10" id="10" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="11" id="11" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="12" id="12" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="13" id="13" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="14" id="14" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="15" id="15" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="16" id="16" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="17" id="17" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="18" id="18" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="19" id="19" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="20" id="20" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="21" id="21" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="22" id="22" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="23" id="23" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="24" id="24" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="25" id="25" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="26" id="26" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="27" id="27" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="28" id="28" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="29" id="29" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="30" id="30" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="31" id="31" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="32" id="32" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="33" id="33" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="34" id="34" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="35" id="35" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="36" id="36" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="37" id="37" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="38" id="38" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="39" id="39" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="40" id="40" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="41" id="41" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="42" id="42" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="43" id="43" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="44" id="44" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="45" id="45" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="46" id="46" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="47" id="47" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="48" id="48" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="49" id="49" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="50" id="50" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="51" id="51" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="52" id="52" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="53" id="53" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="54" id="54" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="55" id="55" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="56" id="56" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="57" id="57" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="58" id="58" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="59" id="59" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="60" id="60" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="61" id="61" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="62" id="62" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="63" id="63" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="64" id="64" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="65" id="65" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="66" id="66" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="67" id="67" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="68" id="68" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="69" id="69" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="70" id="70" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="71" id="71" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="72" id="72" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="73" id="73" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="74" id="74" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="75" id="75" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="76" id="76" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="77" id="77" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="78" id="78" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="79" id="79" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="80" id="80" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="81" id="81" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="82" id="82" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="83" id="83" order="-1"/>
+    </tileset>
+    <tileset across="12" atlasID="0" desc="" down="8" id="7" name="Bob Wants 3" oid="-1" shared="false" th="32" tw="32">
+        <tile collision="-1" data="" durations="100" frames="0" id="0" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="1" id="1" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="2" id="2" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="3" id="3" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="4" id="4" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="5" id="5" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="6" id="6" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="7" id="7" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="8" id="8" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="9" id="9" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="10" id="10" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="11" id="11" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="12" id="12" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="13" id="13" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="14" id="14" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="15" id="15" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="16" id="16" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="17" id="17" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="18" id="18" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="19" id="19" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="20" id="20" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="21" id="21" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="22" id="22" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="23" id="23" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="24" id="24" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="25" id="25" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="26" id="26" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="27" id="27" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="28" id="28" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="29" id="29" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="30" id="30" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="31" id="31" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="32" id="32" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="33" id="33" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="34" id="34" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="35" id="35" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="36" id="36" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="37" id="37" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="38" id="38" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="39" id="39" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="40" id="40" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="41" id="41" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="42" id="42" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="43" id="43" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="44" id="44" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="45" id="45" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="46" id="46" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="47" id="47" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="48" id="48" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="49" id="49" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="50" id="50" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="51" id="51" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="52" id="52" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="53" id="53" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="54" id="54" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="55" id="55" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="56" id="56" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="57" id="57" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="58" id="58" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="59" id="59" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="60" id="60" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="61" id="61" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="62" id="62" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="63" id="63" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="64" id="64" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="65" id="65" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="66" id="66" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="67" id="67" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="68" id="68" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="69" id="69" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="70" id="70" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="71" id="71" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="72" id="72" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="73" id="73" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="74" id="74" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="75" id="75" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="76" id="76" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="77" id="77" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="78" id="78" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="79" id="79" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="80" id="80" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="81" id="81" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="82" id="82" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="83" id="83" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="84" id="84" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="85" id="85" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="86" id="86" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="87" id="87" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="88" id="88" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="89" id="89" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="90" id="90" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="91" id="91" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="92" id="92" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="93" id="93" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="94" id="94" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="95" id="95" order="-1"/>
+    </tileset>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="17" fixedrot="true" fric="0.2" gid="3" id="28" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Dead Bob" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="29" static="true">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="324" id="29" name="Dead Bob" shared="false" width="576">
+        <anim across="3" down="2" durations="600,500,400,300,1000" height="648" id="0" loop="false" name="Explode" numframes="5" originx="288" originy="162" sync="false" version="2" width="1728">
+            <poly data="4,0,0,576,0,576,324,0,324" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <music atlasID="0" desc="" id="34" loop="true" name="Dying Notes" oid="-1" pan="0" shared="false" stream="true" type="mp3" volume="1"/>
+    <music atlasID="0" desc="" id="32" loop="true" name="Grunt" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="16" fixedrot="true" fric="0.2" gid="3" id="26" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="Happy Bob" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="27" static="true">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="324" id="27" name="Happy Bob" shared="false" width="576">
+        <anim across="2" down="1" durations="500,800" height="324" id="0" loop="true" name="Happy Bob" numframes="2" originx="288" originy="162" sync="false" version="2" width="1152">
+            <poly data="4,0,0,576,0,576,324,0,324" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <custom-block blocktag="custom-17" blocktype="ACTION" code=".say(&quot;Label&quot;, &quot;_customBlock_HideLabel&quot;);" desc="" global="false" gui="hide label for %0" id="17" message="HideLabel" name="HideLabel" oid="-1" return="void" shared="false" snippetID="12">
+        <blank name="Self" order="0" type="actor"/>
+    </custom-block>
+    <custom-block blocktag="custom-24" blocktype="NORMAL" code="cast(.say(&quot;Label&quot;, &quot;_customBlock_MouseOverLabel&quot;), Bool)" desc="" global="false" gui="is mouse over label for %0" id="24" message="MouseOverLabel" name="MouseOverLabel" oid="-1" return="boolean" shared="false" snippetID="12">
+        <blank name="Self" order="0" type="actor"/>
+    </custom-block>
+    <custom-block blocktag="custom-23" blocktype="NORMAL" code="cast(.say(&quot;Label&quot;, &quot;_customBlock_MouseOverText&quot;), Bool)" desc="" global="false" gui="is mouse over text for %0" id="23" message="MouseOverText" name="MouseOverText" oid="-1" return="boolean" shared="false" snippetID="12">
+        <blank name="Self" order="0" type="actor"/>
+    </custom-block>
+    <music atlasID="0" desc="" id="31" loop="true" name="Music" oid="-1" pan="0" shared="false" stream="true" type="mp3" volume="1"/>
+    <font alphabet=" !&quot;#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿĀāĂăĄąĆćĈĉĊċČčĎďĐđĒēĔĕĖėĘęĚěĜĝĞğĠġĢģĤĥĦħĨĩĪīĬĭĮįİıĲĳĴĵĶķĸĹĺĻļĽľĿŀŁłŃńŅņŇňŉŊŋŌōŎŏŐőŒœŔŕŖŗŘřŚśŜŝŞşŠšŢţŤťŦŧŨũŪūŬŭŮůŰűŲųŴŵŶŷŸŹźŻżŽžſ" atlasID="0" desc="" height="50" id="3" name="Questions" offsets="0|0|0|,7|0|7,14|0|14,22|0|22,35|0|35,47|0|47,63|0|63,76|0|76,81|0|81,90|0|90,98|0|98,106|0|106,118|0|118,123|0|123,131|0|131,135|0|135,146|0|146,158|0|158,166|0|166,178|0|178,190|0|190,202|0|202,214|0|214,226|0|226,237|0|237,249|0|249,260|0|260,266|0|266,273|0|273,285|0|285,297|0|297,309|0|309,320|0|320,340|0|340,355|0|355,370|0|370,385|0|385,401|0|401,417|0|417,432|0|432,447|0|447,464|0|464,470|0|470,482|0|482,498|0|498,510|0|510,529|0|529,545|0|545,561|0|561,576|0|576,592|0|592,607|0|607,621|0|621,635|0|635,650|0|650,665|0|665,686|0|686,704|0|704,719|0|719,733|0|733,742|0|742,748|0|748,758|0|758,768|0|768,782|0|782,787|0|787,799|0|799,811|0|811,822|0|822,834|0|834,845|0|845,855|0|855,868|0|868,880|0|880,887|0|887,897|0|897,910|0|910,917|0|917,935|0|935,947|0|947,958|0|958,971|0|971,982|0|982,992|0|992,1003|0|1003,1010|0|1010,1022|0|1022,1034|0|1034,1050|0|1050,1062|0|1062,1075|0|1075,1087|0|1087,1096|0|1096,1100|0|1100,1110|0|1110,1122|0|1122,1133|0|1133,1134|0|1134,1135|0|1135,1136|0|1136,1137|0|1137,1138|0|1138,1139|0|1139,1140|0|1140,1141|0|1141,1142|0|1142,1143|0|1143,1144|0|1144,1145|0|1145,1146|0|1146,1147|0|1147,1148|0|1148,1149|0|1149,1150|0|1150,1151|0|1151,1152|0|1152,1153|0|1153,1154|0|1154,1155|0|1155,1156|0|1156,1157|0|1157,1158|0|1158,1159|0|1159,1160|0|1160,1161|0|1161,1162|0|1162,1163|0|1163,1164|0|1164,1165|0|1165,1172|0|1172,1179|0|1179,1190|0|1190,1204|0|1204,1216|0|1216,1231|0|1231,1235|0|1235,1248|0|1248,1256|0|1256,1273|0|1273,1282|0|1282,1293|0|1293,1305|0|1305,1313|0|1313,1330|0|1330,1344|0|1344,1352|0|1352,1363|0|1363,1371|0|1371,1379|0|1379,1385|0|1385,1398|0|1398,1411|0|1411,1415|0|1415,1422|0|1422,1429|0|1429,1438|0|1438,1449|0|1449,1466|0|1466,1483|0|1483,1501|0|1501,1512|0|1512,1527|0|1527,1542|0|1542,1557|0|1557,1572|0|1572,1587|0|1587,1602|0|1602,1625|0|1625,1640|0|1640,1656|0|1656,1672|0|1672,1688|0|1688,1704|0|1704,1711|0|1711,1720|0|1720,1728|0|1728,1737|0|1737,1753|0|1753,1769|0|1769,1785|0|1785,1801|0|1801,1817|0|1817,1833|0|1833,1849|0|1849,1860|0|1860,1876|0|1876,1891|0|1891,1906|0|1906,1921|0|1921,1936|0|1936,1951|0|1951,1966|0|1966,1979|0|1979,1991|0|1991,2003|0|2003,2015|0|2015,2027|0|2027,2039|0|2039,2051|0|2051,2070|0|2070,2081|0|2081,2092|0|2092,2103|0|2103,2114|0|2114,2125|0|2125,2131|0|2131,2139|0|2139,2147|0|2147,2156|0|2156,2167|0|2167,2179|0|2179,2190|0|2190,2201|0|2201,2212|0|2212,2223|0|2223,2234|0|2234,2245|0|2245,2257|0|2257,2269|0|2269,2281|0|2281,2293|0|2293,2305|0|2305,2318|0|2318,2331|0|2331,2344|0|2344,2359|0|2359,2371|0|2371,2386|0|2386,2398|0|2398,2413|0|2413,2425|0|2425,2440|0|2440,2451|0|2451,2466|0|2466,2477|0|2477,2492|0|2492,2503|0|2503,2518|0|2518,2529|0|2529,2545|0|2545,2560|0|2560,2576|0|2576,2590|0|2590,2606|0|2606,2617|0|2617,2633|0|2633,2644|0|2644,2660|0|2660,2671|0|2671,2687|0|2687,2698|0|2698,2714|0|2714,2726|0|2726,2741|0|2741,2754|0|2754,2769|0|2769,2782|0|2782,2797|0|2797,2810|0|2810,2825|0|2825,2838|0|2838,2855|0|2855,2867|0|2867,2884|0|2884,2896|0|2896,2905|0|2905,2914|0|2914,2923|0|2923,2932|0|2932,2941|0|2941,2950|0|2950,2958|0|2958,2966|0|2966,2973|0|2973,2979|0|2979,2994|0|2994,3004|0|3004,3018|0|3018,3029|0|3029,3045|0|3045,3058|0|3058,3071|0|3071,3083|0|3083,3092|0|3092,3104|0|3104,3112|0|3112,3125|0|3125,3134|0|3134,3146|0|3146,3155|0|3155,0|25|3167,7|25|3174,23|25|3190,35|25|3202,51|25|3218,63|25|3230,79|25|3246,91|25|3258,103|25|3270,118|25|3285,130|25|3297,146|25|3313,157|25|3324,173|25|3340,184|25|3351,200|25|3367,212|25|3379,233|25|3400,252|25|3419,267|25|3434,277|25|3444,292|25|3459,303|25|3470,318|25|3485,329|25|3496,343|25|3510,354|25|3521,368|25|3535,379|25|3546,393|25|3560,404|25|3571,418|25|3585,430|25|3597,444|25|3611,452|25|3619,466|25|3633,476|25|3643,490|25|3657,498|25|3665,513|25|3680,525|25|3692,540|25|3707,552|25|3719,567|25|3734,579|25|3746,594|25|3761,606|25|3773,621|25|3788,633|25|3800,648|25|3815,660|25|3827,681|25|3848,697|25|3864,712|25|3879,725|25|3892,740|25|3907,754|25|3921,766|25|3933,780|25|3947,792|25|3959,806|25|3973,818|25|3985" oid="-1" prerendered="false" rowHeight="25" shared="false"/>
+    <custom-block blocktag="custom-11" blocktype="ACTION" code=".say(&quot;Label&quot;, &quot;_customBlock_SetLabelAlignmentBottom&quot;);" desc="" global="false" gui="bottom-align label for %0" id="11" message="SetLabelAlignmentBottom" name="SetLabelAlignmentBottom" oid="-1" return="void" shared="false" snippetID="12">
+        <blank name="Self" order="0" type="actor"/>
+    </custom-block>
+    <custom-block blocktag="custom-16" blocktype="ACTION" code=".say(&quot;Label&quot;, &quot;_customBlock_SetLabelAlignmentCenter&quot;);" desc="" global="false" gui="center label for %0" id="16" message="SetLabelAlignmentCenter" name="SetLabelAlignmentCenter" oid="-1" return="void" shared="false" snippetID="12">
+        <blank name="Self" order="0" type="actor"/>
+    </custom-block>
+    <custom-block blocktag="custom-22" blocktype="ACTION" code=".say(&quot;Label&quot;, &quot;_customBlock_SetLabelAlignmentLeft&quot;);" desc="" global="false" gui="left-align label for %0" id="22" message="SetLabelAlignmentLeft" name="SetLabelAlignmentLeft" oid="-1" return="void" shared="false" snippetID="12">
+        <blank name="Self" order="0" type="actor"/>
+    </custom-block>
+    <custom-block blocktag="custom-14" blocktype="ACTION" code=".say(&quot;Label&quot;, &quot;_customBlock_SetLabelAlignmentMiddle&quot;);" desc="" global="false" gui="center label vertically for %0" id="14" message="SetLabelAlignmentMiddle" name="SetLabelAlignmentMiddle" oid="-1" return="void" shared="false" snippetID="12">
+        <blank name="Self" order="0" type="actor"/>
+    </custom-block>
+    <custom-block blocktag="custom-18" blocktype="ACTION" code=".say(&quot;Label&quot;, &quot;_customBlock_SetLabelAlignmentRight&quot;);" desc="" global="false" gui="right-align label for %0" id="18" message="SetLabelAlignmentRight" name="SetLabelAlignmentRight" oid="-1" return="void" shared="false" snippetID="12">
+        <blank name="Self" order="0" type="actor"/>
+    </custom-block>
+    <custom-block blocktag="custom-13" blocktype="ACTION" code=".say(&quot;Label&quot;, &quot;_customBlock_SetLabelAlignmentTop&quot;);" desc="" global="false" gui="top-align label for %0" id="13" message="SetLabelAlignmentTop" name="SetLabelAlignmentTop" oid="-1" return="void" shared="false" snippetID="12">
+        <blank name="Self" order="0" type="actor"/>
+    </custom-block>
+    <custom-block blocktag="custom-21" blocktype="ACTION" code=".say(&quot;Label&quot;, &quot;_customBlock_SetLabelFont&quot;, []);" desc="" global="false" gui="set label font to %1 for %0" id="21" message="SetLabelFont" name="SetLabelFont" oid="-1" return="void" shared="false" snippetID="12">
+        <blank name="Self" order="0" type="actor"/>
+        <blank name="font" order="1" type="font"/>
+    </custom-block>
+    <custom-block blocktag="custom-12" blocktype="ACTION" code=".say(&quot;Label&quot;, &quot;_customBlock_SetLabelHeight&quot;, []);" desc="" global="false" gui="set label height to %1 for %0" id="12" message="SetLabelHeight" name="SetLabelHeight" oid="-1" return="void" shared="false" snippetID="12">
+        <blank name="Self" order="0" type="actor"/>
+        <blank name="height" order="1" type="number"/>
+    </custom-block>
+    <custom-block blocktag="custom-20" blocktype="ACTION" code=".say(&quot;Label&quot;, &quot;_customBlock_SetLabelText&quot;, []);" desc="" global="false" gui="set label text to %1 for %0" id="20" message="SetLabelText" name="SetLabelText" oid="-1" return="void" shared="false" snippetID="12">
+        <blank name="Self" order="0" type="actor"/>
+        <blank name="text" order="1" type="text"/>
+    </custom-block>
+    <custom-block blocktag="custom-19" blocktype="ACTION" code=".say(&quot;Label&quot;, &quot;_customBlock_SetLabelWidth&quot;, []);" desc="" global="false" gui="set label width to %1 for %0" id="19" message="SetLabelWidth" name="SetLabelWidth" oid="-1" return="void" shared="false" snippetID="12">
+        <blank name="Self" order="0" type="actor"/>
+        <blank name="width" order="1" type="number"/>
+    </custom-block>
+    <custom-block blocktag="custom-15" blocktype="ACTION" code=".say(&quot;Label&quot;, &quot;_customBlock_ShowLabel&quot;);" desc="" global="false" gui="show label for %0" id="15" message="ShowLabel" name="ShowLabel" oid="-1" return="void" shared="false" snippetID="12">
+        <blank name="Self" order="0" type="actor"/>
+    </custom-block>
+    <custom-block blocktag="custom-25" blocktype="ACTION" code=".say(&quot;Endless Animation&quot;, &quot;_customBlock_SwitchEndlessAnimation&quot;, []);" desc="" global="false" gui="switch endless animation to %1 for %0" id="25" message="SwitchEndlessAnimation" name="SwitchEndlessAnimation" oid="-1" return="void" shared="false" snippetID="14">
+        <blank name="Self" order="0" type="actor"/>
+        <blank name="animation" order="1" type="animation"/>
+    </custom-block>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="11" fixedrot="true" fric="0.2" gid="3" id="9" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="text" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="10" static="true">
+        <snippets>
+            <s enabled="true" id="12">
+                <prop id="32" list="0" val="false"/>
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val="-1"/>
+                <prop id="33" list="0" val="0"/>
+                <prop id="34" list="0" val="0"/>
+                <prop id="4" list="0" val="Replace Me"/>
+                <prop id="37" list="0" val=""/>
+                <prop id="39" list="0" val="true"/>
+                <prop id="41" list="0" val="0.0"/>
+                <prop id="42" list="0" val="false"/>
+                <prop id="43" list="0" val="false"/>
+                <prop id="11" list="0" val="0.0"/>
+                <prop id="14" list="0" val="true"/>
+                <prop id="17" list="0" val="Center"/>
+                <prop id="18" list="0" val="260"/>
+                <prop id="21" list="0" val="0.0"/>
+                <prop id="24" list="0" val="Middle"/>
+                <prop id="25" list="0" val="40"/>
+                <prop id="26" list="0" val="0"/>
+                <prop id="27" list="0" val="0.0"/>
+                <prop id="28" list="0" val=""/>
+                <prop id="29" list="0" val=""/>
+                <prop id="30" list="0" val="true"/>
+                <prop id="31" list="0" val="false"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="40" id="10" name="text" shared="false" width="266">
+        <anim across="1" down="1" durations="100" height="40" id="0" loop="true" name="Animation 0" numframes="1" originx="133" originy="20" sync="false" version="2" width="266">
+            <poly data="4,10,10,543,10,543,310,10,310" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+</pack>

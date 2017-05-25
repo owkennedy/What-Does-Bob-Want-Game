@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene depth="1" desc="" eventsnippetid="9" extheight="544" extwidth="704" extx="-32" exty="-32" format="3.4.0" gravx="-0.0" gravy="0.0" height="480" id="4" name="Question 2" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="640">
+    <layers>
+        <grad-bg b1="255" b2="51" g1="255" g2="51" r1="255" r2="51"/>
+        <layer blendMode="normal" color="100,168,234" id="0" locked="false" name="Layer 0" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+    </layers>
+    <joints/>
+    <regions/>
+    <terrainRegions/>
+    <actors>
+        <actor a="0.0" aid="1" c="false" group="4" id="0" name="Bob 1" sx="1.0" sy="1.0" x="674" y="18" z="0"/>
+        <actor a="0.0" aid="2" c="false" group="3" id="26" name="Happy Bob 2" sx="1.0" sy="1.0" x="224" y="0" z="0"/>
+    </actors>
+    <snippets>
+        <s enabled="true" id="13">
+            <prop id="1" list="0" val="What does Bob want?"/>
+            <prop id="2" list="1" val="">
+                <text order="0" value="Trousers"/>
+                <text order="1" value="Safari Holiday"/>
+                <text order="2" value="Sandwich"/>
+                <text order="3" value="Numberwang"/>
+            </prop>
+            <prop id="3" list="0" val=""/>
+            <prop id="4" list="0" val=""/>
+            <prop id="5" list="0" val=""/>
+            <prop id="6" list="0" val=""/>
+            <prop id="7" list="0" val="5"/>
+            <prop id="8" list="1" val="">
+                <number order="0" value="1.0"/>
+                <number order="1" value="-2.0"/>
+                <number order="2" value="-2.0"/>
+                <number order="3" value="-2.0"/>
+            </prop>
+        </s>
+    </snippets>
+    <terrain>
+        <p pts="4,0.0,224.0,0.0,0.0,384.0,0.0,384.0,224.0" x="0.0" y="0.0"/>
+    </terrain>
+    <atlases members="" retainAtlases="true"/>
+</scene>
